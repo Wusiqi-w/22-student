@@ -1,0 +1,32 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box img{
+    width: 100%;
+}
+
+#box {
+    width: 1920px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+#red {
+    background-image: url(../image/570174838.jpg);
+    width: 1920px;
+}
+
+#green {
+
+    background-image: url(../image/569174837.jpg);
+    width: 1920px;
+}
+
+.slide {
+    width: 1920px;
+    height: 600px;
+    position: absolute;
+}

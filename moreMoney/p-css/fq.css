@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+html,body{
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+}
+
+.view {
+    width: 100%;
+}
+
+/* .nav{
+    height: 55px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    z-index: 10000;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav_left{
+    width: 200px;
+} */
+
+.jx{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.jx a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 7px 16px;
+    line-height: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.jx a:hover::after{
+    width: 100%;
+}
+
+.jx a{
+    position: relative;
+}
+
+.jx a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #edb951;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+
+.home {
+    width: 100%;
+    height: 600px;
+}
+
+.home img{
+    width: 100%;
+    height: 600px;
+}
+
+.hz{
+  display: flex;
+  padding: 30px;
+}
+
+.hz img{
+   padding: 20px;
+   width: 100%;
+   /* height: 300px; */
+   max-width: 500px;
+}
+.wz{
+    margin-top: 20px;
+    text-indent :2em;
+}
+
+.bottom {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    background-color: rgb(20,20,20);
+}
+
+.bottom>h1 {
+    text-align: center;
+    color: #fbda41;
+    padding: 10px 0 0;
+}
+
+.bottom>p {
+    text-align: center;
+    color: azure;
+    padding: 20px 100px 10px;
+    font-size: 13px;
+    line-height: 1.5px;
+}
+
+.dizhi {
+    text-align: left;
+    display: inline;
+}
+
+.dizhi span {
+    font-weight: bolder;
+}
+
+.kefu {
+    text-align: center;
+    display: inline;
+}
+
+.kefu span {
+    font-weight: bolder;
+}
+
+.youxiang {
+    text-align: center;
+    display: inline;
+}
+
+.youxiang {
+    font-weight: bolder;
+}
